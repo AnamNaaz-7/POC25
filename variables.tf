@@ -1,5 +1,5 @@
 variable "region" {
-  default = "ap-south-1"
+  default = "us-east-1"
 }
 
 variable "instance_type" {
@@ -7,7 +7,7 @@ variable "instance_type" {
 }
 
 variable "ami" {
-  default = "ami-0f5ee92e2d63afc18" # Amazon Linux/Ubuntu (Mumbai)
+  default = "ami-0230bd60aa48260c6"
 }
 
 variable "bucket_name" {
