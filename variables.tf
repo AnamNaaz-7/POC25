@@ -2,14 +2,16 @@ variable "region" {
   default = "us-east-1"
 }
 
+
 variable "instance_type" {
   default = "t2.micro"
 }
 
+
 variable "ami" {
-  default = "ami-0230bd60aa48260c6"
+  default = "ami-0c02fb55956c7d316"
 }
 
 variable "bucket_name" {
-  default = "anjli-terraform-bucket-12345"
+  default = "anjli-tf-bucket-2026-unique-001"
 }
