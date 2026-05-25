@@ -13,5 +13,5 @@ variable "ami" {
 }
 
 variable "bucket_name" {
-  default = "anjli-tf-bucket-2026-unique-001"
+  default = "poc25"
 }
