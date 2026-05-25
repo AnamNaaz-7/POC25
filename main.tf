@@ -39,7 +39,7 @@ resource "aws_route_table_association" "rta" {
 }
 
 # S3 Bucket
-resource "aws_s3_bucket" "my_bucket" {
+resource "aws_s3_bucket" "my_bucket_1" {
   bucket = var.bucket_name
 }
 
