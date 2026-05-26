@@ -66,7 +66,7 @@ resource "random_id" "rand" {
 
 # ✅ S3 BUCKET (AUTO UNIQUE ✅)
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "anjli-tf-${random_id.rand.hex}"
+  bucket = "anam-tf-${random_id.rand.hex}"
 }
 
 # ✅ EC2 INSTANCE (Free Tier ✅)
